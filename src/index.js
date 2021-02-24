@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 
 import Greet from './components/Greet'
 
+import Welcome from './components/Welcome'
+
 class Cq extends React.Component {
 	render() {
 		return (
-			<Greet />
+            <div>
+			    <Greet />
+                <Welcome />
+            </div>
 		)
 	}
 }
