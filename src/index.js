@@ -6,14 +6,16 @@ import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Hello from './components/Hello'
 import Message from './components/Message'
+import Counter from './components/Counter'
 
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <Message />
-			    {/* <Greet name = "Anshika">
+                <Counter />
+                {/*<Message />
+			     <Greet name = "Anshika">
                 // children props 
                     <p> I am a children prop</p>
                 </Greet>
