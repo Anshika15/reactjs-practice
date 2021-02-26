@@ -13,7 +13,8 @@ class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <Counter />
+            {/* <Counter />*/}
+                <Greet name="Anshika" />
                 {/*<Message />
 			     <Greet name = "Anshika">
                 // children props 
