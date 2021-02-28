@@ -9,13 +9,15 @@ import Message from './components/Message'
 import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
+import EventBind from './components/EventBind'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <FunctionClick />
-                <ClassClick />
+                <EventBind /> 
+               {/* <FunctionClick />*/}
+               {/* <ClassClick /> */}
             {/* <Counter />
                 <Greet name="Anshika" />
                 {/*<Message />
