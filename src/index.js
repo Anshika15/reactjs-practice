@@ -10,15 +10,17 @@ import Counter from './components/Counter'
 import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <EventBind /> 
-               {/* <FunctionClick />*/}
+            <ParentComponent />
+               {/* <EventBind /> 
+                <FunctionClick />*/}
                {/* <ClassClick /> */}
-            {/* <Counter />
+               {/* <Counter />
                 <Greet name="Anshika" />
                 {/*<Message />
 			     <Greet name = "Anshika">
