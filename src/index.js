@@ -11,12 +11,15 @@ import FunctionClick from './components/FunctionClick'
 import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import ConditionRendering from './components/ConditionRendering'
+
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-            <ParentComponent />
+                <ConditionRendering />
+                {/*<ParentComponent />*/}
                {/* <EventBind /> 
                 <FunctionClick />*/}
                {/* <ClassClick /> */}
