@@ -12,12 +12,13 @@ import ClassClick from './components/ClassClick'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import ConditionRendering from './components/ConditionRendering'
-
+import NameList from './components/NameList'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
+                <NameList />
                 <ConditionRendering />
                 {/*<ParentComponent />*/}
                {/* <EventBind /> 
