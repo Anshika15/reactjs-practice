@@ -13,11 +13,19 @@ import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import ConditionRendering from './components/ConditionRendering'
 import NameList from './components/NameList'
+import StyleSheet from './components/StyleSheet'
+import Inline from './components/Inline'
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
+                <h1 className='error'>Error</h1>
+                <h1 className = {styles.success}>Success</h1>
+                <Inline />
+                <StyleSheet />
                 <NameList />
                 <ConditionRendering />
                 {/*<ParentComponent />*/}
