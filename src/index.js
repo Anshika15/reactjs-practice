@@ -19,12 +19,17 @@ import './appStyles.css'
 import styles from './appStyles.module.css'
 import Form from './components/Form'
 import LifecycleA from './components/LifecycleA'
+import FragmentsDemo from './components/FragmentsDemo'
+import PureComp from './components/PureComp'
+import ParentComp from './components/ParentComp'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <LifecycleA />
+                <ParentComp />
+                {/*<FragmentsDemo /> */}
+                {/*<LifecycleA />*/}
                {/*} <Form />
                 <h1 className='error'>Error</h1>
                 <h1 className = {styles.success}>Success</h1>
