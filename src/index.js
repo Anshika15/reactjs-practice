@@ -22,12 +22,14 @@ import LifecycleA from './components/LifecycleA'
 import FragmentsDemo from './components/FragmentsDemo'
 import PureComp from './components/PureComp'
 import ParentComp from './components/ParentComp'
+import RefsDemo from './components/RefsDemo'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <ParentComp />
+                <RefsDemo />
+                {/*<ParentComp />*/}
                 {/*<FragmentsDemo /> */}
                 {/*<LifecycleA />*/}
                {/*} <Form />
