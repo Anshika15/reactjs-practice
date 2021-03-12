@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import FocusInput from './components/FocusInput'
+import PortalsDemo from './components/PortalsDemo'
 
 class Cq extends React.Component {
 	render() {
 		return (
             <div>
-                <FocusInput />
+                <PortalsDemo />
             </div>
 		)
 	}
